@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Odin Sign-Up Form</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="wrapper">
+          <div class="left">
+            <img
+              src="./img/alex-azabache-UeX_qw9lnzc-unsplash.jpg"
+              alt="tree"
+              class="left__image"
+            />
+            <div class="odin-logo">
+              <img src="./img/odin-lined.png" alt="Odin" class="odin-img" />
+              <p class="odin-title">odin</p>
+            </div>
+            <div class="autor-info">
+              Photo by
+              <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
+              <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a>
+            </div>
+          </div>
+          <div class="right">
+            <div class="right__contant">
+              <div class="right__contant-info">
+                <p>
+                  This is not a real online service! You know you need something
+                  like this in your life to help you realize your deepest
+                  dreams. Sign up <span>now</span> to get started.
+                </p>
+              </div>
+              <div class="right__contant-info2">
+                <p>You <span>know</span> you want to.</p>
+              </div>
+            </div>
+            <div class="right__form-contant">
+              <div class="form-title">
+                <h2>Let's do this!</h2>
+              </div>
+              <form action="#" method="post">
+                <fieldset>
+                  <div class="first">
+                    <label for="first_name">First Name</label><br />
+                    <input
+                      type="text"
+                      id="first_name"
+                      name="first_name"
+                      placeholder=""
+                    />
+                  </div>
+                  <div class="last">
+                    <label for="last_name">Last Name</label><br />
+                    <input type="text" id="last_name" name="last_name" />
+                  </div>
+                  <div class="email">
+                    <label for="user_email">Email</label><br />
+                    <input type="email" id="user_email" name="email" />
+                  </div>
+                  <div class="phone">
+                    <label for="phone_number">Phone number</label><br />
+                    <input type="tel" id="phone_number" name="phone_number" />
+                  </div>
+                  <div class="password">
+                    <label for="user_password">Password</label><br />
+                    <input type="password" id="user_password" name="password" />
+                  </div>
+                  <div class="confirm-password">
+                    <label for="confirm_password">Confirm Password</label><br />
+                    <input
+                      type="password"
+                      id="confirm_password"
+                      name="confirm_password"
+                    />
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+            <div class="right__create">
+              <button type="submit" class="account-btn">Create Account</button>
+              <p class="right__create-info">
+                Already have an account? <a href="">Log in</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

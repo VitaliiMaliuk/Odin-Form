@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body {
+  font-family: "Roboto";
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.wrapper {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.left {
+  position: relative;
+}
+.left__image {
+  width: 484px;
+  height: 928px;
+}
+.odin-logo {
+  width: 484px;
+  height: 136px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 203px;
+}
+.odin-img {
+  width: 95px;
+  height: 110px;
+}
+.odin-title {
+  font-size: 90px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.autor-info {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+  left: 157px;
+}
+.autor-info a {
+  color: white;
+  text-decoration: underline;
+}
+.right {
+  width: 825px;
+  border-color: aliceblue;
+}
+.right__contant {
+  font-size: 22px;
+  line-height: 28px;
+  background-color: #f9f9fc;
+}
+.right__contant-info {
+  padding-top: 150px;
+  padding-bottom: 21px;
+  padding-left: 45px;
+  width: 670px;
+}
+.right__contant span {
+  font-style: italic;
+}
+.right__contant-info2 {
+  width: 267px;
+  padding-bottom: 52px;
+  padding-left: 45px;
+}
+.right__form-contant {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.form-title {
+  font-size: 22px;
+  padding-top: 18px;
+  padding-left: 45px;
+}
+fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-top: 22px;
+  margin-left: 45px;
+}
+.first,
+.last,
+.email,
+.phone,
+.password,
+.confirm-password {
+  width: 270px;
+}
+label {
+  text-transform: uppercase;
+  margin-top: 26px;
+  letter-spacing: 1.5px;
+  font-size: 11px;
+}
+input {
+  width: 237px;
+  line-height: 28px;
+  border: 1px solid #E5E7EB;
+  border-radius: 5px;
+}
+input:focus {
+  border: 1px solid rgb(107, 139, 245);
+}
+.last,
+.phone,
+.confirm-password {
+  margin-left: 32px;
+}
+.email,
+.phone,
+.password,
+.confirm-password {
+  margin-top: 21px;
+}
+.password,
+.confirm-password {
+  margin-bottom: 35px;
+}
+.right__create {
+  background-color: #f9f9fc;
+  height: 322px;
+}
+.account-btn {
+  background-color: #596d48;
+  color: white;
+  font-family: "Roboto";
+  padding: 16px 50px 13px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-left: 45px;
+  margin-top: 33px;
+  margin-bottom: 33px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.right__create-info {
+  margin-left: 45px;
+  font-family: "Roboto";
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.right__create-info a {
+  color: #596d48;
+}
